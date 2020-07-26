@@ -1,0 +1,36 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+    <main>
+        <div class="wrapper">
+            <h1>{{ home.title_home }}</h1>
+            <p>{{ home.subtitle_home }}</p>
+        </div>
+        <img src="/assets/chef.png" alt="chef foodfy">
+    </main>
+
+    <div class="list__recipes">
+        <h2>{{ home.best_recipes }}</h2>
+    </div>
+
+    <section class="recipes">
+        {% for item in items %}
+        <div class="recipe" id="{{item.id}}">
+            <div class="recipe__image">
+                <img src="{{item.image}}" alt="Imagem de {{item.title}}">
+            </div>
+            <div class="recipe__name">
+                <p>{{item.title}}</p>
+            </div>
+            <div class="recipe__chef">
+                <p>por {{item.author}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+    <script src="/scripts.js"></script>
+{% endblock %}
+
+
+

@@ -1,0 +1,43 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Receitas - Foodfy</title>
+{% endblock %}
+
+{% block content %}
+            <section class="recipes">
+
+                {% for item in items %}
+                <div class="recipe" id="{{item.id}}">
+                    <div class="recipe__image">
+                        <img src="{{item.image}}" alt="Imagem de {{item.title}}">
+                    </div>
+                    <div class="recipe__name">
+                        <p>{{item.title}}</p>
+                    </div>
+                    <div class="recipe__chef">
+                        <p>por {{item.author}}</p>
+                    </div>
+                </div>
+                {% endfor %}
+                {% for item in items %}
+                <div class="recipe" id="{{item.id}}">
+                    <div class="recipe__image">
+                        <img src="{{item.image}}" alt="Imagem de {{item.title}}">
+                    </div>
+                    <div class="recipe__name">
+                        <p>{{item.title}}</p>
+                    </div>
+                    <div class="recipe__chef">
+                        <p>por {{item.author}}</p>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </section>
+        </div>
+
+    <script src="/scripts.js"></script>
+{% endblock %}
+
+
