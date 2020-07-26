@@ -6,11 +6,11 @@
     <img src=public/assets/chef.png>
 </h1>
 
-# Indice
+# Índice
 
 # :hamburger: Sobre
 
-O projeto **Foodfy** é um projeto que foi criado dentro do curso **Bootcamp** na [Rocketseat](https://rocketseat.com.br/)com o intuito de colocarmos em prática todo conteúdo estudado durante o curso.
+O projeto **Foodfy** é um projeto que foi criado dentro do curso **Bootcamp** na [Rocketseat](https://rocketseat.com.br/) com o intuito de colocarmos em prática todo conteúdo estudado durante o curso.
 
 ---
 
@@ -36,16 +36,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     $ cd Foodfy
 
     # Instalar as dependências
-    $ npm init -y
     $ npm install
-    $ npm install express
-
-    # Instalar o Reiniciador        automático com Nodemon
-    $ npm install -D nodemon
-
-    #Instalar o Nunjucks
-    $ npm install nunjucks
-
+    
     # Iniciar o projeto
     $ npm start
 ```
