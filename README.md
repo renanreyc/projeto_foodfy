@@ -73,6 +73,6 @@ Para usar estes recursos, edite o arquivo `mailer.js` dentro da pasta `scr/lib` 
 
 ---
 
-:lobster: Desenvolvido por Renan Rey :lobster:
+Desenvolvido por Renan Rey :lobster:
 
 
